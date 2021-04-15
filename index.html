@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Dev.finance$</title>
   </head>
   <body>
@@ -11,7 +18,7 @@
       <h1 id="logo">dev.finance$</h1>
     </header>
 
-    <main>
+    <main class="container">
       <section id="balance">
         <h2>Balanço</h2>
 
@@ -23,7 +30,7 @@
           <h3>Saídas</h3>
           <p>R$ 2.000,00</p>
         </div>
-        <div class="card">
+        <div class="card total">
           <h3>Total</h3>
           <p>R$ 3.000,00</p>
         </div>
@@ -43,19 +50,19 @@
 
           <tbody>
             <tr>
-              <td>Luz</td>
-              <td>- R$ 500,00</td>
-              <td>23/01/2021</td>
+              <td class="description">Luz</td>
+              <td class="expense">- R$ 500,00</td>
+              <td class="date">23/01/2021</td>
             </tr>
             <tr>
-              <td>Criação de website</td>
-              <td>R$ 5.000,00</td>
-              <td>24/01/2021</td>
+              <td class="description">Criação de website</td>
+              <td class="income">R$ 5.000,00</td>
+              <td class="date">24/01/2021</td>
             </tr>
             <tr>
-              <td>Aluguel</td>
-              <td>- R$ 1.500,00</td>
-              <td>26/01/2021</td>
+              <td class="description">Aluguel</td>
+              <td class="expense">- R$ 1.500,00</td>
+              <td class="date">26/01/2021</td>
             </tr>
           </tbody>
         </table>
